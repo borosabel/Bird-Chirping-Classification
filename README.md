@@ -1,6 +1,8 @@
 # Bird-Chirping-Classification
 **Bird Chirping Classification from Audio Signal**
 
+![img.png](img.png)
+
 **Disclaimer:** This is a university group project's final report.
 For a detailed project specification, look up the [Machine Learning & Pattern Classification Moodle page](https://www.jku.at/en/institute-of-computational-perception/teaching/alle-lehrveranstaltungen/machine-learning-and-pattern-classification-vl-ue/).
 
@@ -45,4 +47,28 @@ During the Data exploration we had to report:
    ones are correlated with the labels?
 5. **Consequences**: Any conclusions you can draw from your analysis for doing classification?
 
-The detaild report of this part can be found at: [Data_Exploration.pdf](Exploration%2FData_Exploration.pdf)
+### **The detailed report of this part can be found at: [Data_Exploration.pdf](Exploration%2FData_Exploration.pdf)**
+
+## 2. Data Classification:
+
+See task description:
+
+1. **Preprocess Data**: Convert audio fragments into a suitable format for machine learning, like Mel Spectrograms or MFCCs.
+2. **Feature Extraction**: Extract relevant features from the audio data that will be used for classification.
+3. **Model Training**: Train each selected model on the training data using various parameter settings.
+4. **Model Evaluation**: Use cross-validation to evaluate each model and parameter setting, using your chosen metric(s).
+5. **Analysis**: Compare the models and parameter settings, analyze the impact of parameters on overfitting and performance.
+
+### **The detailed report of this part can be found at: [Classification.pdf](Classification%2FClassification.pdf)**
+
+## 3. Challenge:
+
+We got a test set of additional recordings, including the same set of
+audio features that was available for training, but excluding the labels. Our task is to provide a label for the samples from the unknown test set. 
+As the evaluation will differ a bit from what you used during your previous experiments, there are opportunities to tune your
+system to maximize your evaluation score. 
+You may try different solutions on the test
+set by submitting your predictions to a challenge server that will run the evaluation.
+You will document not only the final solution, but also the process of getting there.
+
+### **The detailed report of this part can be found at: [Challenge.pdf](Challenge%2FChallenge.pdf)**
